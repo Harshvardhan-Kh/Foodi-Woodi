@@ -3,6 +3,9 @@ body {
     background-repeat: no-repeat;
     background: url(./../img/food\ bg.jpg);
     background-size: cover;
+    text-align: left;
+    margin: 0;
+    padding: 0;
 
 
 }
@@ -11,19 +14,15 @@ body {
     display: flex;
     align-items: center;
     background-color: rgb(0 0 0 / 63%);
-    /* border-radius: 45px; */
-    padding: 13px;
-    margin-top: 0;
-    margin-left: 0;
-    margin-right: 0;
+
     
 }
 
 .home {
-    margin-left: 90px;
-    font-size: 30px;
+    margin: 30px;
+    font-size: 20px;
     display: flex;
-   flex-direction: row-reverse;
+   
     
 }
 
@@ -33,6 +32,11 @@ a{
 
 }
 .logo-img{
-    margin-left: 5px;
-    padding: 5px;
+   margin-left: 30px;
+}
+
+.hname{
+    text-align: center;
+    color: rgb(239, 234, 228);
+    font-size: 60px;
 }
