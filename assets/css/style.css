@@ -3,7 +3,6 @@ body {
     background-repeat: no-repeat;
     background: url(./../img/food\ bg.jpg);
     background-size: cover;
- filter: blur(8px);
 
 
 }
@@ -11,18 +10,29 @@ body {
 .nav-bar {
     display: flex;
     align-items: center;
-    background-color: antiquewhite;
-    border-radius: 45px;
-    padding: 10px;
+    background-color: rgb(0 0 0 / 63%);
+    /* border-radius: 45px; */
+    padding: 13px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
     
 }
 
 .home {
-    margin: 10px;
+    margin-left: 90px;
+    font-size: 30px;
+    display: flex;
+   flex-direction: row-reverse;
     
 }
 
 a{
     text-decoration: none;
+    color: antiquewhite;
 
+}
+.logo-img{
+    margin-left: 5px;
+    padding: 5px;
 }
