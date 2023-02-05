@@ -1,7 +1,9 @@
 body {
 
+    background-repeat: no-repeat;
     background: url(./../img/food\ bg.jpg);
-
+    background-size: cover;
+ filter: blur(8px);
 
 
 }
@@ -10,7 +12,7 @@ body {
     display: flex;
     align-items: center;
     background-color: antiquewhite;
-    border-radius: 20px;
+    border-radius: 45px;
     padding: 10px;
     
 }
